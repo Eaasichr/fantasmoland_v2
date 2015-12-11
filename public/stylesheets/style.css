@@ -1,0 +1,12 @@
+.panel{
+  min-height: 193px;
+}
+
+.btn-danger{
+  float: right;
+}
+
+button{
+  background-color: transparent;
+  border: 0;
+}

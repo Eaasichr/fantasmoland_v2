@@ -1,0 +1,31 @@
+<form role="form" method="post">
+    <div class="form-group">
+        <label for="month">Måned:</label>
+        <input type="text" class="form-control" id="month" name="month" ng-model="vm.month">
+    </div>
+    <div class="form-group">
+        <label for="year">År:</label>
+        <input type="number" class="form-control" id="year" name="year" ng-model="vm.year">
+    </div>
+    <div class="form-group">
+        <label for="place">Sted:</label>
+        <input type="text" class="form-control" id="place" name="place" ng-model="vm.place">
+    </div>
+    <div class="form-group">
+        <label for="dish">Ret:</label>
+        <input type="text" class="form-control" id="dish" name="dish" ng-model="vm.dish">
+    </div>
+    <div class="form-group">
+        <label for="dessert">Dessert:</label>
+        <input type="text" class="form-control" id="dessert" name="dessert" ng-model="vm.dessert">
+    </div>
+    <div class="form-group">
+        <label for="missing">Manglede der nogen?:</label>
+        <input type="text" class="form-control" id="missing" name="missing" ng-model="vm.missing">
+    </div>
+    <div class="form-group">
+        <label for="guests">Gæster:</label>
+        <input type="text" class="form-control" id="guests" name="guests" ng-model="vm.guests">
+    </div>
+    <button ng-click="vm.createFoodclub()" class="btn btn-default">Opret</button>
+</form>

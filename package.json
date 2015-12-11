@@ -1,0 +1,30 @@
+{
+  "name": "fantasmoland_v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eaasichr/fantasmoland_v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eaasichr/fantasmoland_v2/issues"
+  },
+  "homepage": "https://github.com/Eaasichr/fantasmoland_v2#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.12",
+    "gulp": "^3.9.0",
+    "nodemon": "^1.8.1"
+  }
+}

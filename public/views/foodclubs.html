@@ -1,0 +1,23 @@
+<div class="row">
+    <div ng-repeat="foodclub in vm.foodclubs">
+        <form novalidate method="post">
+            <div class="col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        Sted: {{foodclub.place}}
+                        <button ng-click="vm.deleteFoodclub(foodclub._id)" class="fa fa-trash pull-right"></button>
+                        <button ng-click="updateDish(foodclub._id)" class="fa fa-pencil pull-right"></button>
+                    </div>
+                    <div class="panel-body">
+                        Maaned: {{foodclub.month}}<br/>
+                        Aar: {{foodclub.year}}<br/>
+                        Ret: {{foodclub.dish}}
+                        <span ng-if="foodclub.dessert"><br/>Dessert: {{foodclub.dessert}}</span>
+                        <span ng-if="foodclub.guests"><br/>Gaester: {{foodclub.guests}}</span>
+                        <span ng-if="foodclub.missing"><br/>Mangler: {{foodclub.missing}}</span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
