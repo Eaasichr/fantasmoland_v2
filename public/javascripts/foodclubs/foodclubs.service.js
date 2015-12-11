@@ -12,7 +12,7 @@
         };
 
         var createFoodclub = function(newDish){
-            return $http.post('http://http://188.166.0.128:3000/createFoodclub', newDish)
+            return $http.post('http://188.166.0.128:3000/createFoodclub', newDish)
                 .success(function (data) {
                     console.log("Dish created");
                     console.log(data);
@@ -24,7 +24,7 @@
         }
 
         var deleteFoodclub = function(id){
-            return $http.post('http://http://188.166.0.128:3000/deleteFoodclub', {id: id})
+            return $http.post('http://188.166.0.128:3000/deleteFoodclub', {id: id})
                 .success(function (data) {
                     console.log("Dish deleted");
                     console.log(data);
